@@ -1,0 +1,4 @@
+set_param gaze = 0
+tell humanReady
+set_param location = 0
+bored

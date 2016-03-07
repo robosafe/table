@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <property name="prefix" value="" />
+
+	<link name="${prefix}object_link">
+            <visual>
+                <origin xyz="0.3 -0.3 0.555" rpy="0 0 0"/>
+                <geometry name="${prefix}object_link_visual_geom">
+                    <cylinder length="0.25" radius="0.025"/>
+                </geometry>
+            </visual>
+            <collision>
+                <origin xyz="0.3 -0.3 0.555" rpy="0 0 0"/>
+                <geometry name="${prefix}object_link_coll_geom">
+                    <cylinder length="0.25" radius="0.025"/>
+                </geometry>
+            </collision>
+    	    <inertial>
+    		<mass value="0.5" />:
+    		<inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" />
+    	    </inertial>
+        </link>
+
+    	<gazebo reference="${prefix}object_link">
+	   <static>true</static>
+	   <material>Gazebo/Blue</material>
+	   <selfCollide>true</selfCollide>
+   	   <turnGravityOff>true</turnGravityOff>
+  	</gazebo>
+
+
+
+
+</robot>

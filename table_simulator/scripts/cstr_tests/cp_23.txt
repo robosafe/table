@@ -1,0 +1,4 @@
+bored
+bored
+bored
+set_param location = 1

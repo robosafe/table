@@ -1,0 +1,4 @@
+tell humanReady
+tell humanReady
+set_param pressure = 0
+set_param pressure = 1

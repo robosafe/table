@@ -1,0 +1,4 @@
+set_param pressure = 0
+bored
+tell humanReady
+set_param location = 0

@@ -1,0 +1,4 @@
+set_param gaze = 0
+set_param location = 0
+set_param location = 0
+set_param gaze = 1
