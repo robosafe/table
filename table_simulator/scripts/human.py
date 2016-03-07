@@ -162,7 +162,7 @@ def main(name_file,xx):
 	#Create machine by reading instruction list
 	global instructions
 	global data
-	for num,command in enumerate(open(os.getcwd()+'/src/table_simulator/scripts/cstr_tests/'+name_file+'.txt','r')): #Change to abstract_tests
+	for num,command in enumerate(open(os.getcwd()+'/src/table_simulator/scripts/abstract_tests/'+name_file+'.txt','r')): 
 		if re.search("tell leg",command): #if the command is to send a signal
 			instructions.append('sendA1')
 		elif re.search("tell humanReady",command):

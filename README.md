@@ -8,6 +8,6 @@ Assuming:
 To run the tests, run the script table.sh
 - Times for launching might need adjusting
 - Loop iterations = test numbers, and seeding for parameter initialization (modify as needed)
-- Tests to choose from are located in table_simulator/scripts/abstract_tests and table_simulator/scripts/cstr_tests
+- Tests to choose from are located in table_simulator/scripts/abstract_tests
 
 
